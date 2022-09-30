@@ -86,7 +86,9 @@ class _MyLoginState extends State<MyLogin> {
                       backgroundColor: Color.fromARGB(255, 14, 163, 71),
                       child: IconButton(
                         color: Color.fromARGB(255, 239, 240, 237),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, 'inicio');
+                        },
                         icon: const Icon(Icons.arrow_forward),
                       ),
                     ),
